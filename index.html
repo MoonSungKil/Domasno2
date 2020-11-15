@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JS  -->
+    <script src="script.js" defer></script>
+
+    <!-- JQuery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+     <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+     <!-- Bootstrap  -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- navigation  -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" style="font-size: 3.5rem;" href="#">Calendar</a>
+      <button class="navbar-toggler button-download" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#calendar">Calendar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#downloads">Downloads</a>
+            <li class="nav-item">
+            <a class="nav-link" href="#footer">Footer</a>
+          </li>
+          </li>
+        </ul>
+        </div>
+    </nav>
+    <main id="main-cont">
+
+        <!-- Calendar  -->
+ <div class="container-fluid">
+        <div class="row">
+        <div id="calendar">
+            <div class="month">
+                <div class="date">
+                <h1></h1>
+                <p></p>
+                </div>
+            </div>
+            <div class="weekdays">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            <div class="days">
+                <div>1
+                    <input type="text" class="txtb" >
+                    <div class="notcomp">
+                        
+                        <div class="task" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>2
+                    <input type="text" class="txtb1" >
+                     <div class="notcomp1">
+                        
+                        <div class="task1" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>3
+                 <input type="text" class="txtb2" >
+                     <div class="notcomp2">
+                        
+                        <div class="task2" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>4
+                     <input type="text" class="txtb4" >
+                     <div class="notcomp4">
+                        
+                        <div class="task4" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>5
+                     <input type="text" class="txtb5" >
+                     <div class="notcomp5">
+                        
+                        <div class="task5" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>6
+                     <input type="text" class="txtb6" >
+                     <div class="notcomp6">
+                       
+                        <div class="task6" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>7
+                     <input type="text" class="txtb7" >
+                     <div class="notcomp7">
+                        
+                        <div class="task7" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>8
+                     <input type="text" class="txtb8" >
+                     <div class="notcomp8">
+                        
+                        <div class="task8" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>9
+                    <input type="text" class="txtb9" >
+                     <div class="notcomp9">
+                        
+                        <div class="task9" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>10
+                     <input type="text" class="txtb10" >
+                     <div class="notcomp10">
+                      
+                        <div class="task10" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>11
+                    <input type="text" class="txtb11" >
+                     <div class="notcomp11">
+                       
+                        <div class="task11" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>12
+                     <input type="text" class="txtb12" >
+                     <div class="notcomp12">
+                        
+                        <div class="task12" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>13
+                     <input type="text" class="txtb13" >
+                     <div class="notcomp13">
+                        
+                        <div class="task13" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>14
+                     <input type="text" class="txtb14" >
+                     <div class="notcomp14">
+                  
+                        <div class="task14" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>15
+                     <input type="text" class="txtb15" >
+                     <div class="notcomp15">
+            
+                        <div class="task15" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>16
+                     <input type="text" class="txtb16" >
+                     <div class="notcomp16">
+                  
+                        <div class="task16" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>17
+                    <input type="text" class="txtb17" >
+                     <div class="notcomp17">
+                       
+                        <div class="task17" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>18
+                     <input type="text" class="txtb18" >
+                     <div class="notcomp18">
+                    
+                        <div class="task18" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>19
+                     <input type="text" class="txtb19" >
+                     <div class="notcomp19">
+                   
+                        <div class="task19" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>20
+                     <input type="text" class="txtb20" >
+                     <div class="notcomp20">
+                    
+                        <div class="task20" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>21
+                    <input type="text" class="txtb21" >
+                     <div class="notcomp21">
+                
+                        <div class="task21" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>22
+                    <input type="text" class="txtb22" >
+                     <div class="notcomp22">
+             
+                        <div class="task22" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>23
+                     <input type="text" class="txtb23" >
+                     <div class="notcomp23">
+           
+                        <div class="task23" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>24
+                     <input type="text" class="txtb24" >
+                     <div class="notcomp24">
+                       
+                        <div class="task24" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>25
+                     <input type="text" class="txtb25" >
+                     <div class="notcomp25">
+                        
+                        <div class="task25" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>26
+                     <input type="text" class="txtb26" >
+                     <div class="notcomp26">
+                       
+                        <div class="task26" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>27
+                    <input type="text" class="txtb27" >
+                     <div class="notcomp27">
+                       
+                        <div class="task27" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>28
+                     <input type="text" class="txtb28" >
+                     <div class="notcomp28">
+                      
+                        <div class="task28" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>29
+                     <input type="text" class="txtb29" >
+                     <div class="notcomp29">
+                       
+                        <div class="task29" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>30
+                    <input type="text" class="txtb30" >
+                     <div class="notcomp30">
+                       
+                        <div class="task30" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div>31
+                     <input type="text" class="txtb31" >
+                     <div class="notcomp31">
+                        
+                        <div class="task31" style="display: inline;">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+
+        <!-- cards -->
+        
+        <div id="downloads" class="cards-div">
+            <div class="row">
+
+                <div class="col-lg-4">
+                <div class="card" data-toggle="tooltip" data-html="true"  data-placement="left" title="Here you can Download the updated version of the <b>Bootstrap Framework</b>.">
+                    <div style="background-color:rgb(31,31,31);" class="card-header">
+                        <h4>Download Bootstrap</h4>
+                    </div>
+                    <div class="card-body">
+                        <h3>Bootstrap</h3>
+                        <p>Bootstrap is the most popular HTML, CSS, and JavaScript framework</p>
+                        <p>Bootstrap is a free and open-source CSS framework.</p> 
+                        <a href="https://github.com/twbs/bootstrap/releases/download/v4.5.3/bootstrap-4.5.3-dist.zip" class="btn lg btn-block btn-outline-primary">Download</a>
+                    </div>
+                </div>
+                </div>
+
+             <div class="col-lg-4">
+                <div class="card" data-toggle="tooltip" data-placement="top" data-html="true" title="Alternative to downloading the whole framework, you can aswell <u>Copy</u> the <b>CDN</b>.">
+                    <div style="background-color:rgb(31,31,31);" class="card-header">
+                        <h4>Quick Start!</h4>
+                    </div>
+                    <div class="card-body">
+                        <h3>Bootstrap CDN</h3>
+                        <p>Looking to quickly add Bootstrap to your project? Use BootstrapCDN</p>
+                        <p>Copy-paste the stylesheet into the HTML head element.</p>
+                        <a href="https://www.bootstrapcdn.com/" target="_blank" class="btn lg btn-block btn-outline-primary">Get CDN</a>
+                    </div>
+                </div>
+                </div>
+
+              <div class="col-lg-4">
+                <div  class="card" data-toggle="tooltip" data-placement="right" data-html="true" title="Path leading to rhe <b>CDN</b> for <u>jQuery</u> the most used library for <em>JavaScript</em>.">
+                    <div style="background-color: rgb(31,31,31);" class="card-header">
+                        <h4>Get jQuery</h4>
+                    </div>
+                    <div class="card-body">
+                        <h3>jQuery CDN</h3>
+                        <p>jQuery is an JavaScript Library, easy to learn.</p>
+                        <p>jQuery is used by majority of programmers. </p> <br>
+                        <a href="https://code.jquery.com/" target="_blank" class="btn lg btn-block btn-outline-primary">Get CDN</a>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- footer  -->
+<footer>
+        <div id="footer" class="name-index">
+            <h3>Kris Donovski</h3>
+        </div>
+        <div class="name-index1">
+            <h3>1840 KNI</h3>
+        </div>
+      </footer>  
+    </main>
+
+</body>
+</html>
